@@ -1,0 +1,93 @@
+body{
+margin: 0px ;
+}
+.top{
+    background-color: black;
+    color:gray;
+    padding: 20px;
+}
+h1{
+    color: white;
+}
+h3,p,li,ul{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    
+}
+ul{
+    margin-left: 65%;
+
+}
+.left{
+    display: inline-block;
+width: 50%;    
+}
+.wel{
+    padding: 20px;
+    padding-right: 25px;
+    color: yellow;
+}
+h1{
+    padding: 20px;
+    padding-right: 25px;
+}
+p{
+    padding-right:5px;
+    
+    display: inline;
+   
+}
+h2{
+    padding: 20px;
+    padding-right: 25px;
+    color: gray;
+}
+button{
+    margin-left: 25px;
+    padding: 15px;
+    background-color: yellow;
+    
+}
+.image{
+    height: 250px;
+    width: 250px;
+    
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+    position: relative;
+    right: 100px;
+}
+.ul, li:hover{
+    color: white;
+    cursor: pointer;
+}
+.main{
+    background:linear-gradient( rgb(93, 0, 255),black);
+    height: 100vh;
+}
+#mc{
+    background-color: yellow;
+    border-radius: 60%;
+}
+.main.light-mode{
+    background:linear-gradient(white,lightblue);
+    
+}
+.main.light-mode h1{
+    color: black;
+}
+.main.light-mode button {
+background-color: purple;
+}
+#mc:hover{
+    cursor: pointer;
+}
