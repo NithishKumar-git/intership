@@ -65,8 +65,17 @@ button{
 .image{
     height: 250px;
     width: 250px;
+    filter: grayscale(100%);
+    transition: 1s ease;
+
     
     
+}
+.image:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+    rotate: 7deg;
+    cursor: pointer;
 }
 .wrap{
     display: flex;
