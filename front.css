@@ -77,7 +77,7 @@ img{
 }
 .main{
     background-color: #0d1321;
-    height: 410vh;
+    height: 470vh;
 }
 #mc{
     background-color: #278c93;
@@ -195,7 +195,7 @@ background-color: purple;
 .container-res{
     max-width: 800px;
     margin: 60px auto;
-    height: 130vh;
+    height: 170vh;
     padding: 20px;
     box-shadow: 0 2px 30px #278c93;
     color: #278c93;
