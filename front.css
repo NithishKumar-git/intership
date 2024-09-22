@@ -5,6 +5,14 @@ margin: 0px ;
     background-color: black;
     color:#278c93;
     padding: 20px;
+    position: fixed;
+    overflow: hidden;
+    width: 250vh;
+
+}
+html{
+    scroll-behavior: smooth ;
+    
 }
 h1{
     color: white;
@@ -13,10 +21,13 @@ h3,p,li,ul{
     list-style: none;
     display: inline;
     padding: 10px;
+
+    
     
 }
 ul{
-    margin-left: 65%;
+    margin-left: 45%;
+
 
 }
 .left{
@@ -54,6 +65,7 @@ button{
 .image{
     height: 250px;
     width: 250px;
+    
     
 }
 .wrap{
@@ -138,7 +150,7 @@ background-color: purple;
     cursor: pointer;
 }
 .h1-form{
-    position: relative;
+
     color: #278c93;
   }
   /* FORM CSS */
@@ -148,13 +160,12 @@ background-color: purple;
     justify-content: space-around;
     height:600px ;
     width: 95%;
-    position: relative;
     top: 100px;
     bottom: 100px;
     left: 70px;
 }
 .h1-form{
-    position: relative;
+
     color: #278c93;
   }
 .Table-form{
