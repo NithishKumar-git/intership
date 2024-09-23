@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     
+    <title>Document</title>
+    <link rel="stylesheet" href="formcss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <style>
-    @media  screen and (max-width: 600px) {
+    @media  screen and (max-width: 480px) {
     .main {
         flex-direction: column;
         height: auto; 
@@ -61,228 +66,129 @@ body{
 }
 }
 
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-    height:600px ;
-    width: 100%;
-    border-radius: 50px;
-    background: linear-gradient( rgb(234, 152, 234), rgb(241, 124, 124));
-    position: relative;
-    top: 20px;
-
-    
-}
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100%;
-  background-color: white;
-
-}
-h1{
-    position: relative;
-}
-.right{
-width: 100px;
-color: black;
-position: relative;
-top: 20px;
-right:200px;
-}
-p{
-    color: black;
-}
-    
-
-table{
-    
-    border-radius: 20px;
-    box-shadow: 2px 2px 20px black;
-    position: relative;
-    background: white;
-    padding: 20px ;
-    font-family: sans-serif;
-    color: black;
-    height: 200px;
-}
-button{
-    height: 10px;
-    width: 100px;
-    background-color:rgb(255, 168, 255);
-    width: 300px;
-    padding: 20px;
-    padding-bottom: 20;
-    border-radius: 20px;
-    border: none;
-    top: 30px;
-    position: relative;
-    left: 50px;
-    top: 45px;
-    
-
-}
-input,textarea{
-    color:blue;
-    border:solid 1px rgb(117, 117, 198);
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    background: transparent;
-    width: 400px;
-    position: relative;
-    top: 40px;
-}
-tr,td{
-    padding: 10px;
-}
-.name {
- position: relative;
- top: 40px;
-}
-textarea{
-height: 50px;
-width: 400px;
-position: relative;
-bottom: 0px;}
-input{
-    height: 30px;
-    width: 400px}
-
-.top{
-    background-color: rgb(241, 124, 124);
-    color:black;
-    padding: 20px;
-    position: fixed;
-    overflow: hidden;
-    width: 250vh;
-
-}
-h3,p,li,ul{
-    list-style: none;
-    display: inline;
-    padding: 10px;
-    color: white;
-}
-.left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul{
-    margin-left: 65%;
-    
-}
-.ul, .li:hover{
-    color:black;
-    cursor: pointer;
-}
-.top{
-    top:0px
-}
-a{
-    color:  rgb(241, 124, 124);
-    text-decoration: none;
-    color: white;
-
-}
-.bot-lis{
-    color: black;
-}
-a:hover{
-    color: black;
-}
-.bot-lis:hover{
-    color: rgb(241, 124, 124);
-}
-.cont{
-    position: relative;
-    display: inline;
-    margin-top: 0px;
-    right : 50vh;
-    color: black;
-}
-.info{
-    position: relative;
-    top: 20px;
-    display: inline-block;
-    color: black;
-    overflow: hidden;
-}
-
-p{
-    display: inline-block;
-    
-    color: black;
-    overflow: hidden;
-    
-}
-.bottom .bot-li{
-    margin-left: 0px;
-    font-size: xx-large;
-}
 </style>
 <body>
     <nav class="top">
         <h3>PORTFOLIO</h3>
-    
         <ul>
-            <li class="li" ><a href="index.html">Home</a></li>
-          <li class="li"> <a href="resume2.html"> Resume </a></li>
-            <li class="li"> <a href="form.html">Contact</a></li>
-            <li class="li"> <a href="form.html">Contact</a></li>
-            
-            
+            <li class="li"><a href="index.html">Home</a></li>
+            <li class="li"><a href="resume2.html">Resume</a></li>
+            <li class="li"><a href="form.html">Contact</a></li>
         </ul>
     </nav>
     <div class="main">
-      
         <div class="left">
             <div class="cont">
-            <h1>Lets 's get in touch</h1><p>Or Reach out manually to snithishk7@gmail.com </p>
-            <div class="bottom">  
-                <ul class="bot-li">
-                  
-                    <li ><a href="mailto:pwrbuster-snithishk7@gmail.com" class="bot-lis"><i class="fa-solid fa-envelope"></i></a> </li>
-                    <li ><a href="https://github.com/" class="bot-lis"><i class="fa-brands fa-github"></i> </a></li>
-                    <li ><a href="https://www.instagram.com/nithishkumar.___/?hl=en" class="bot-lis"><i class="fa-brands fa-instagram"></i></a></li>
+                <h1>Let's get in touch</h1>
+                <p>  Or reach out manually to <a href="mailto:pwrbuster-snithishk7@gmail.com" class="lin">snithishk7@gmail.com</a></p>
+                <div class="bottom">
+                    <ul class="bot-li">
+                        <li><a href="mailto:pwrbuster-snithishk7@gmail.com" class="bot-lis"><i class="fa-solid fa-envelope"></i></a></li>
+                        <li><a href="https://github.com/" class="bot-lis"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.instagram.com/nithishkumar.___/?hl=en" class="bot-lis"><i class="fa-brands fa-instagram"></i></a></li>
                     </ul>
                 </div>
-</div>
-        
-
-        
-        <div class="right">
-            <table>
-                <tr class="name">
-                    <td>NAME</td>
-                </tr>
-                <tr>
-                    <td><input type="text" required></td>
-                </tr>
-                <tr class="name">
-                    <td>EMAIL</td>
-                </tr>
-                <tr>
-                    <td><input type="email" required></td>
-                </tr>
-                <tr class="name">
-                    <td>MESSAGE</td>
-                </tr>
-                <tr>
-                    <td><textarea cols="30" rows="10"></textarea></td>
-                </tr>
-                <tr>
-                    <td><button>Submit</button></td>
-                </tr>
-            </table>
+            </div>
         </div>
-        
+
+        <div class="right">
+            <form id="contactForm">
+                <table id="contactEform">
+                    <tr class="name">
+                        <td>NAME</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="name" required></td>
+                    </tr>
+                    <tr class="name">
+                        <td>EMAIL</td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email" required></td>
+                    </tr>
+                    <tr class="name">
+                        <td>MESSAGE</td>
+                    </tr>
+                    <tr>
+                        <td><textarea id="message" cols="30" rows="10" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            
+            if (name === '') {
+                alert('Please enter your name.');
+                return;
+            }
+
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+
+            if (message === '') {
+                alert('Please enter a message.');
+                return;
+            }
+
+            
+            alert('Form submitted successfully!');
+        
+        });
+    </script>
+</body>
+
+<script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            
+            event.preventDefault();
+    
+            
+            const name = this.querySelector('input[type="text"]').value;
+            const email = this.querySelector('input[type="email"]').value;
+            const message = this.querySelector('textarea').value;
+    
+            
+            if (!name) {
+                alert('Please enter your name.');
+                return;
+            }
+    
+            if (!email || !validateEmail(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+    
+            if (!message) {
+                alert('Please enter a message.');
+                return;
+            }
+
+            alert('Form submitted successfully!'); 
+            
+        });
+    
+        function validateEmail(email) {
+        
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
+    </script>
+    
 </body>
 </html>

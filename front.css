@@ -1,164 +1,211 @@
 body{
-margin: 0px ;
-}
-.top{
-    background-color: rgb(241, 124, 124);
-    color:black;
-    padding: 20px;
-    position: fixed;
-    overflow: hidden;
-    width: 250vh;
-
-}
-html{
-    scroll-behavior: smooth ;
+    margin: 0px ;
+    font-family: "Comic Neue", cursive;;
+    }
+    .top{
+        background-color: rgb(241, 124, 124);
+        color:black;
+        padding: 20px;
+        position: fixed;
+        overflow: hidden;
+        width: 250vh;
     
-}
-h1{
-    color:  rgb(241, 124, 124);
-}
-h3,p,li,ul{
-    list-style: none;
-    display: inline;
-    padding: 10px;
-    color: white;
-}
+    }
+    .name{
+        color: transparent;
+        position: relative;
+        bottom: 50px;
     
 
-ul{
-    margin-left: 45%;
+    }
+     .name > span{
+        background: linear-gradient(120deg,red,30%,yellow);
+        --webkit-backgroundclip:text;
+        background-clip:text;
+    }
+    html{
+        scroll-behavior: smooth ;
+        
+    }
+    .btnn{
+        position: relative;
+        bottom:50px;
+    }
+    h1{
+        color:  rgb(241, 124, 124);
+    }
+    h3,p,li,ul{
+        list-style: none;
+        display: inline;
+        padding: 10px;
+        color: white;
+    }
+        
     
-
-
-}
-.left{
-    display: inline-block;
-    width: 50%;    
-}
-.wel{
-    padding: 20px;
-    padding-right: 25px;
-    color: black;
-}
-h1{
-    padding: 20px;
-    padding-right: 25px;
-}
-p{
-    padding-right:5px;
-    display: inline;
-   
-}
-h2{
-    padding: 20px;
-    padding-right: 25px;
-    color:black;
-}
-button{
-    margin-left: 25px;
-    padding: 15px;
-    background-color: rgb(241, 124, 124) ;
-    color: black;
-    border-radius: 20px;
+    ul{
+        margin-left: 45%;
+        
     
     
-}
-.btn{
-    color: white;
-}
-.image{
-    height: 250px;
-    width: 250px;
-   transition: 1s ease;
-
+    }
+    .left{
+        display: inline-block;
+        width: 50%;    
+    }
+    .wel{
+        padding: 20px;
+        padding-right: 25px;
+        color: black;
+    }
+    h1{
+        padding: 20px;
+        padding-right: 25px;
+    }
+    p{
+        padding-right:5px;
+        display: inline;
+       
+    }
+    h2{
+        padding: 20px;
+        padding-right: 25px;
+        color:black;
+    }
+    button{
+        margin-left: 25px;
+        padding: 15px;
+        background-color: rgb(241, 124, 124) ;
+        color: black;
+        border-radius: 20px;
+        
+        
+    }
+    .btn{
+        color: white;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+       transition: 1s ease;
+    
+        
+        
+    }
+    .image:hover{
+        transform: scale(1.1);
+        rotate: 7deg;
+        cursor: pointer;
+    }
+    .wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 100px;
+    }
+    img{
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        position: relative;
+        right: 100px;
+        bottom: 100px;
+       
+       
+    }
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #007bff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: fly 5s infinite;
+      }
+      
+      @keyframes fly {
+        0% {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        25% {
+          transform: translate(-50%, -100px) rotate(45deg);
+        }
+        50% {
+          transform: translate(100px, -50%) rotate(90deg);
+        }
+        75% {
+          transform: translate(-50%, 100px) rotate(135deg);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotate(180deg);
+        }
+      }
+      
+    .ul, .li:hover{
+        color:black;
+        cursor: pointer;
+    }
+    .main{
+        background-color: white;
+        height: 100vh;
+    }
+    .bottom{
+        color: rgb(241, 124, 124);
+        display: inline-block;
+        position: relative;
+       left: 30% 
+     
+    }
+    .bot-li{
+        margin-left: 0px;
+        position: relative;
+      text-decoration: none;
+       
+    }
+    a{
+        color:  rgb(241, 124, 124);
+        text-decoration: none;
+        color: white;
+    
+    }
+    .bot-lis{
+        color: black;
+    }
+    a:hover{
+        color: black;
+    }
+    .bot-lis:hover{
+        color: rgb(241, 124, 124);
+    }
+    /* DARK AND LIGHT MODE */
+    .main.dark-mode{
+        background-color:black;
+        
+    }
+    .main.dark-mode h1{
+        color:rgb(241, 124, 124) ;
+    }
+    .main.dark-mode button {
+    background-color:rgb(241, 124, 124);
+    }
+    .main.dark-mode,.li-res,.h3-res,.wel{
+      color: white;
+    }
+    .main.main.dark-mode h2{
+        color: white;
+    }
+    .main.dark-mode .bot-cen{
+        background:none;
+    }
+    .main.dark-mode .bot-lis{
+        color: white;
+    }
+    .main.dark-mode .bot-lis:hover{
+        color: rgb(241, 124, 124);
+    }
     
     
-}
-.image:hover{
-    transform: scale(1.1);
-    rotate: 7deg;
-    cursor: pointer;
-}
-.wrap{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 100px;
-}
-img{
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    position: relative;
-    right: 100px;
-   
-   
-}
-.ul, .li:hover{
-    color:black;
-    cursor: pointer;
-}
-.main{
-    background-color: white;
-    height: 100vh;
-}
-.bottom{
-    color: rgb(241, 124, 124);
-    display: inline-block;
-    position: relative;
-   left: 30% 
- 
-}
-.bot-li{
-    margin-left: 0px;
-    position: relative;
-  text-decoration: none;
-   
-}
-a{
-    color:  rgb(241, 124, 124);
-    text-decoration: none;
-    color: white;
-
-}
-.bot-lis{
-    color: black;
-}
-a:hover{
-    color: black;
-}
-.bot-lis:hover{
-    color: rgb(241, 124, 124);
-}
-/* DARK AND LIGHT MODE */
-.main.dark-mode{
-    background-color:black;
     
-}
-.main.dark-mode h1{
-    color:rgb(241, 124, 124) ;
-}
-.main.dark-mode button {
-background-color:rgb(241, 124, 124);
-}
-.main.dark-mode,.li-res,.h3-res,.wel{
-  color: white;
-}
-.main.main.dark-mode h2{
-    color: white;
-}
-.main.dark-mode .bot-cen{
-    background:none;
-}
-.main.dark-mode .bot-lis{
-    color: white;
-}
-.main.dark-mode .bot-lis:hover{
-    color: rgb(241, 124, 124);
-}
-
-
-
-
-
     
+    
+        
