@@ -1,19 +1,19 @@
 document.getElementById('mc').addEventListener('click', function() {
-    document.body.classList.toggle('light-mode');
+    document.body.classList.toggle('dark-mode');
     const main = document.querySelector('.main');
     const top = document.querySelector('.top');
     const button = document.getElementById('mc');
     
 
-    main.classList.toggle('light-mode');
-    top.classList.toggle('light-mode');
-    button.classList.toggle('light-mode');
+    main.classList.toggle('dark-mode');
+    top.classList.toggle('dark-mode');
+    button.classList.toggle('dark-mode');
     
 
     
-    if (document.body.classList.contains('light-mode')) {
-        button.textContent = 'Dark Mode';
-    } else {
+    if (document.body.classList.contains('dark-mode')) {
         button.textContent = 'Light Mode';
+    } else {
+        button.textContent = 'Dark Mode';
     }
 });

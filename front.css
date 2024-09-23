@@ -2,8 +2,8 @@ body{
 margin: 0px ;
 }
 .top{
-    background-color: black;
-    color:#278c93;
+    background-color: rgb(241, 124, 124);
+    color:black;
     padding: 20px;
     position: fixed;
     overflow: hidden;
@@ -15,29 +15,30 @@ html{
     
 }
 h1{
-    color: white;
+    color:  rgb(241, 124, 124);
 }
 h3,p,li,ul{
     list-style: none;
     display: inline;
     padding: 10px;
-
-    
-    
+    color: white;
 }
+    
+
 ul{
     margin-left: 45%;
+    
 
 
 }
 .left{
     display: inline-block;
-width: 50%;    
+    width: 50%;    
 }
 .wel{
     padding: 20px;
     padding-right: 25px;
-    color: #278c93;
+    color: black;
 }
 h1{
     padding: 20px;
@@ -45,35 +46,36 @@ h1{
 }
 p{
     padding-right:5px;
-    
     display: inline;
    
 }
 h2{
     padding: 20px;
     padding-right: 25px;
-    color: gray;
+    color:black;
 }
 button{
     margin-left: 25px;
     padding: 15px;
-    background-color:#0d1321 ;
-    color: #278c93;
-    border: 1px solid #278c93;
+    background-color: rgb(241, 124, 124) ;
+    color: black;
+    border-radius: 20px;
     
+    
+}
+.btn{
+    color: white;
 }
 .image{
     height: 250px;
     width: 250px;
-    filter: grayscale(100%);
-    transition: 1s ease;
+   transition: 1s ease;
 
     
     
 }
 .image:hover{
     transform: scale(1.1);
-    filter: grayscale(0%);
     rotate: 7deg;
     cursor: pointer;
 }
@@ -89,166 +91,74 @@ img{
     border-radius: 10%;
     position: relative;
     right: 100px;
-    border: 1px solid #278c93;
-    box-shadow:2px 2px 20px  #278c93;
+   
+   
 }
 .ul, .li:hover{
-    color: white;
+    color:black;
     cursor: pointer;
 }
 .main{
-    background-color: #0d1321;
-    height: 470vh;
+    background-color: white;
+    height: 100vh;
 }
-#mc{
-    background-color: #278c93;
-    color: black;
-    border-radius: 60%;}
 .bottom{
-    color: #278c93;
+    color: rgb(241, 124, 124);
     display: inline-block;
     position: relative;
-    top: 25vh;
-    left:50vh;
-    padding: 50px;
-    
+   left: 30% 
+ 
 }
 .bot-li{
     margin-left: 0px;
     position: relative;
-    left: 260px;
-    border-radius: 25%;
-    text-decoration: none;
-    border: 1px solid #278c93;
-    box-shadow: 2px 2px 20px #278c93;
-    
-    
-}
-.bot-cen{
-    position: relative;
-    left: 220px;
-    color: #278c93;
-    background-color: #0d1321;
+  text-decoration: none;
+   
 }
 a{
-    color: #278c93;
+    color:  rgb(241, 124, 124);
     text-decoration: none;
+    color: white;
 
 }
-a:hover{
-    color: white;
-}
-/* DARK AND LIGHT MODE */
-.main.light-mode{
-    background:linear-gradient(white,lightblue );
-    
-}
-.main.light-mode h1{
+.bot-lis{
     color: black;
 }
-.main.light-mode button {
-background-color: purple;
+a:hover{
+    color: black;
 }
-.main.light-mode .p-res ,.li-res,.h3-res{
-  color: black;
+.bot-lis:hover{
+    color: rgb(241, 124, 124);
 }
-.main.light-mode .bot-cen{
+/* DARK AND LIGHT MODE */
+.main.dark-mode{
+    background-color:black;
+    
+}
+.main.dark-mode h1{
+    color:rgb(241, 124, 124) ;
+}
+.main.dark-mode button {
+background-color:rgb(241, 124, 124);
+}
+.main.dark-mode,.li-res,.h3-res,.wel{
+  color: white;
+}
+.main.main.dark-mode h2{
+    color: white;
+}
+.main.dark-mode .bot-cen{
     background:none;
 }
-#mc:hover{
-    cursor: pointer;
+.main.dark-mode .bot-lis{
+    color: white;
 }
-.h1-form{
-
-    color: #278c93;
-  }
-  /* FORM CSS */
-  .main-form{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height:600px ;
-    width: 95%;
-    top: 100px;
-    bottom: 100px;
-    left: 70px;
-}
-.h1-form{
-
-    color: #278c93;
-  }
-.Table-form{
-    border: 1px ;
-    border-radius: 20px;
-    box-shadow: 5px 5px 30px;
-    background:transparent;
-    padding: 50px ;
-    font-family: fantasy;
-    color: #278c93;
-    
-}
-.Button-form{
-    height: 20px;
-    width: 250px;
-    background-color: #0d1321;
-    border-radius: 20px;
-    border: 1px solid #278c93;
-    align-items: center;
-    
-}
-.input-form,.textarea-form{
-    background-color: #278c93;
-    color: #278c93;
-    border: 1px solid white;
-    background: transparent;
-    
-    
-}
-.h1-form{
-    left: 10px;
-}
-/* RESUME CSS */
-.li-res,.h3-res{
-    color:#278c93;
+.main.dark-mode .bot-lis:hover{
+    color: rgb(241, 124, 124);
 }
 
-.container-res{
-    max-width: 800px;
-    margin: 60px auto;
-    height: 170vh;
-    padding: 20px;
-    box-shadow: 0 2px 30px #278c93;
-    color: #278c93;
-    
-}
-    
-.header-res{
-    text-align: center;
-}
-.header-res .h1-res{
-    margin-bottom: 10px;
 
-}
-.header-res .h3-res{
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 500;
-}
 
-    .left-res .p-res{
-        line-height: 2;
-    }
-    .h2-res{
-        background: #278c93;
-        padding: 15px;
-        color:black;
-        margin: 30px 0;
-        font-size: 20px;
-        border-radius: 0 50px 50px 0;
-    }
- .li-res{
-        display: flex;
-        
-    }
+
 
     
